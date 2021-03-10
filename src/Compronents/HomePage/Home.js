@@ -28,7 +28,7 @@ const Home = () => {
         <div className="col">
           <section style={sectionStyle}>
             <div>
-              <p className="text-center page">England Best FootBall Club</p>
+              <p className="text-center page">England Best Sports Club</p>
             </div>
           </section>
         </div>

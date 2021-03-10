@@ -3,7 +3,8 @@ import { useHistory } from "react-router-dom";
 import "./HomeDetails.css";
 
 const HomeDetails = (props) => {
-  const { idLeague, strBadge, strCountry } = props.team;
+  const { idLeague, strBadge, strCountry, strSport } = props.team;
+  console.log(props.team);
   let history = useHistory([]);
   const handelClick = (id) => {
     history.push(`/Details/${id}`);
@@ -14,7 +15,7 @@ const HomeDetails = (props) => {
       <img src={strBadge} alt="" />
       <h2>{strCountry}</h2>
       <p>
-        <small>Sports type: Football</small>
+        <small>Sports type: {strSport}</small>
       </p>
       <button className="bg-dark" onClick={() => handelClick(idLeague)}>
         Explore
