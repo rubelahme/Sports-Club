@@ -1,0 +1,18 @@
+.details {
+  border: 1px solid gray;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px gray;
+  padding-bottom: 20px;
+  background-color: yellowgreen;
+  color: white;
+}
+.details img {
+  width: 180px;
+}
+button {
+  color: wheat;
+  border: 1px solid gray;
+  width: 150px;
+  height: 60px;
+  font-size: 12px;
+}
